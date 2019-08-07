@@ -1,2 +1,8 @@
 @Library('shared-pipeline')_
-call()
+
+@Library('pipeline-library-demo')_
+
+stage('Demo') {
+    echo 'Hello world'
+    sayHello 'Dave'
+}
