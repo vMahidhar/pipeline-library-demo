@@ -1,7 +1,7 @@
 @Library('shared-pipeline')_
 
 pipeline{
-    Stages{
+    stages{
         stage('Demo') {
             echo 'Hello world'
             sayHello 'Dave'
