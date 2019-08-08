@@ -1,3 +1,5 @@
 @Library('shared-pipeline')_
 
-maven()
+pipeline {
+  maven()
+}
